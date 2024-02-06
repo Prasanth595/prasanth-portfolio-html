@@ -79,6 +79,14 @@
             "ghLink": "https://github.com/Prasanth595/countries-viewer",
             "demoLink": "https://prasanth-countries-viewer.pages.dev/",
             "Technologies": ["Angular", "RxJS", "SASS", "API"]
+        },
+        {
+            "Title": "Apple Music Embeddable Web Player Widget",
+            "Description": "Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging MusicKit.js. Read more about this project on 9to5Mac.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "demoLink": "https://tools.applemediaservices.com/apple-music",
+            "ghLink": "https://tools.applemediaservices.com/apple-music",
+            "Technologies": ["MusicKit.js", "JS", "SCSS"]
         }
     ],
     "Contact.Pretitle": "What’s Next",
