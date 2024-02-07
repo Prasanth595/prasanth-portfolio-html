@@ -87,6 +87,22 @@
             "demoLink": "https://tools.applemediaservices.com/apple-music",
             "ghLink": "https://tools.applemediaservices.com/apple-music",
             "Technologies": ["MusicKit.js", "JS", "SCSS"]
+        },
+        {
+            "Title": "OctoProfile",
+            "Description": "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "demoLink": "https://octoprofile.vercel.app/",
+            "ghLink": "https://github.com/Prasanth595/octoprofile",
+            "Technologies": ["Next.js", "JChart.js", "GitHub Api"]
+        },
+        {
+            "Title": "Google Keep Clone",
+            "Description": "A simple Google Keep clone built with Vue and Firebase.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "demoLink": "https://keep-vue.netlify.app/",
+            "ghLink": "https://github.com/Prasanth595/google-keep-vue-firebase",
+            "Technologies": ["Next.js", "JChart.js", "GitHub Api"]
         }
     ],
     "Contact.Pretitle": "What’s Next",
