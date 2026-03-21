@@ -1,0 +1,225 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Prasanth-Arumugam.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I am a DevOps / Cloud / Platform Engineer with several years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems. My expertise spans Kubernetes (GKE), CI/CD automation, application modernization, observability, and security. I specialize in transforming complex legacy environments into automated, reliable, and scalable platforms.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "I am a DevOps / Cloud / Platform Engineer with several years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems.",
+    "My work spans cloud and Kubernetes, CI/CD automation, application modernization, observability, and security and governance.",
+    "My core strength is turning complex, legacy environments into automated, observable, and reliable systems without disrupting business operations.",
+    "I continuously focus on improving systems, automating workflows, and collaborating with cross-functional teams including developers, SREs, infrastructure, and security teams."
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Sections": [
+
+    {
+      "Title": "Cloud & Kubernetes Platform Engineering",
+      "Content": [
+        "Designing Kubernetes architectures using Deployments, StatefulSets, Jobs, Services, Ingress, ConfigMaps, and Secrets.",
+        "Containerizing applications including microservices and monolithic systems using Docker best practices such as multi-stage builds and externalized configuration.",
+        "Integrating systems with external databases, message brokers, and schedulers using secure configurations.",
+        "Implementing scalability and resilience using resource tuning, probes, and autoscaling.",
+        "Supporting microservices and troubleshooting issues related to networking, DNS, and configuration.",
+        "Guiding migrations from VM-based systems to Kubernetes clusters."
+      ]
+    },
+
+    {
+      "Title": "CI/CD, Build Engineering & Release Automation",
+      "Content": [
+        "Designing and maintaining CI pipelines using Bamboo including build, test, and packaging stages.",
+        "Building Docker images and managing artifacts for deployment.",
+        "Implementing GitOps-based CD using ArgoCD with environment configurations stored in Git.",
+        "Enabling automated sync, drift detection, and self-healing deployments.",
+        "Migrating from static build agents to ephemeral Kubernetes-based agents.",
+        "Creating custom agent images with required tools and dependencies.",
+        "Using shared persistent storage (PVC) for caching dependencies and improving performance."
+      ]
+    },
+
+    {
+      "Title": "Observability, Performance & Reliability (SRE)",
+      "Content": [
+        "Implementing monitoring and dashboards for CI systems including build metrics, agent utilization, and failure rates.",
+        "Setting up logging and metrics collection for Kubernetes workloads.",
+        "Creating dashboards for real-time visibility and performance analysis.",
+        "Handling production incidents and performing root cause analysis.",
+        "Improving reliability by refining deployment and monitoring strategies."
+      ]
+    },
+
+    {
+      "Title": "Security, IAM & Governance",
+      "Content": [
+        "Managing cloud IAM roles and service accounts using least-privilege principles.",
+        "Handling secrets securely using environment variables and secret management tools.",
+        "Administering repository access and enforcing branch protections.",
+        "Performing vulnerability remediation by updating images and dependencies.",
+        "Ensuring compliance with enterprise security requirements."
+      ]
+    },
+
+    {
+      "Title": "Collaboration & Agile Delivery",
+      "Content": [
+        "Working closely with developers, infrastructure teams, SREs, and security teams.",
+        "Participating in Agile ceremonies including sprint planning, stand-ups, and retrospectives.",
+        "Leading initiatives such as CI migrations and system modernization.",
+        "Documenting best practices and reusable patterns for teams."
+      ]
+    }
+  ],
+
+  "Projects.Title": "Projects",
+  "Projects.List": [
+
+    {
+      "Name": "Kubernetes Workload Platform",
+      "Description": "Designed and operated enterprise Kubernetes workloads including microservices and legacy applications, ensuring scalability, resilience, and secure integrations.",
+      "Details": [
+        "Used Deployments, StatefulSets, Services, and Ingress.",
+        "Integrated with databases, message brokers, and schedulers.",
+        "Implemented autoscaling and health checks."
+      ]
+    },
+
+    {
+      "Name": "CI/CD Pipeline Automation",
+      "Description": "Built end-to-end CI/CD pipelines with Bamboo and ArgoCD using GitOps practices.",
+      "Details": [
+        "Automated build, test, and deployment workflows.",
+        "Managed environment configurations via Git.",
+        "Enabled rollback and deployment traceability."
+      ]
+    },
+
+    {
+      "Name": "Ephemeral Build Agents Migration",
+      "Description": "Migrated CI infrastructure to Kubernetes-based ephemeral agents.",
+      "Details": [
+        "Created containerized build environments.",
+        "Improved scalability and isolation.",
+        "Reduced dependency conflicts."
+      ]
+    },
+
+    {
+      "Name": "Observability Platform",
+      "Description": "Implemented monitoring and alerting systems for CI/CD and Kubernetes workloads.",
+      "Details": [
+        "Built dashboards for performance and reliability.",
+        "Configured logging and metrics pipelines.",
+        "Improved incident response time."
+      ]
+    },
+
+    {
+      "Name": "Security & IAM Optimization",
+      "Description": "Improved security posture across cloud and CI/CD systems.",
+      "Details": [
+        "Managed IAM roles and service accounts.",
+        "Enforced least-privilege access.",
+        "Handled vulnerability remediation."
+      ]
+    }
+  ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+                {
+            "Title": "Hands game",
+            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+            "imgs": ["assets/images/hands-game.png"],
+            "ghLink": "https://github.com/Prasanth595/hands-game",
+            "demoLink": "https://prasanth-hands-game.pages.dev/",
+            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+        },
+        {
+            "Title": "Countries viewer",
+            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "ghLink": "https://github.com/Prasanth595/countries-viewer",
+            "demoLink": "https://prasanth-countries-viewer.pages.dev/",
+            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Hands game",
+            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+            "imgs": ["assets/images/hands-game.png"],
+            "ghLink": "https://github.com/Prasanth595/hands-game",
+            "demoLink": "https://prasanth-hands-game.pages.dev/",
+            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+        },
+        {
+            "Title": "Countries viewer",
+            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "ghLink": "https://github.com/Prasanth595/countries-viewer",
+            "demoLink": "https://prasanth-countries-viewer.pages.dev/",
+            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+        },
+        {
+            "Title": "Apple Music Embeddable Web Player Widget",
+            "Description": "Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging MusicKit.js. Read more about this project on 9to5Mac.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "demoLink": "https://tools.applemediaservices.com/apple-music",
+            "ghLink": "https://tools.applemediaservices.com/apple-music",
+            "Technologies": ["MusicKit.js", "JS", "SCSS"]
+        },
+        {
+            "Title": "OctoProfile",
+            "Description": "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "demoLink": "https://octoprofile.vercel.app/",
+            "ghLink": "https://github.com/Prasanth595/octoprofile",
+            "Technologies": ["Next.js", "JChart.js", "GitHub Api"]
+        },
+        {
+            "Title": "Google Keep Clone",
+            "Description": "A simple Google Keep clone built with Vue and Firebase.",
+            "imgs": ["assets/images/countries-viewer.png"],
+            "demoLink": "https://keep-vue.netlify.app/",
+            "ghLink": "https://github.com/Prasanth595/google-keep-vue-firebase",
+            "Technologies": ["Next.js", "JChart.js", "GitHub Api"]
+        },
+        {
+          "Title": "Telnet from Kubernetes Cluster",
+          "Description": "Telnet operation from a GKE (Google Kubernetes Engine) cluster.",
+          "imgs": ["assets/images/countries-viewer.png"],
+          "demoLink": "https://gist.github.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654#file-telnet-from-kubernetes-cluster-md",
+          "ghLink": "https://gist.githubusercontent.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654/raw/41228669921498332dcddc9597465daafc85127d/Telnet%2520from%2520Kubernetes%2520Cluster.md",
+          "Technologies": ["Kubectl", "Curl", "Telnet"]
+        },
+        {
+          "Title": "Telnet from Kubernetes Cluster",
+          "Description": "Telnet operation from a GKE (Google Kubernetes Engine) cluster.",
+          "imgs": ["assets/images/countries-viewer.png"],
+          "demoLink": "https://gist.github.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654#file-telnet-from-kubernetes-cluster-md",
+          "ghLink": "https://gist.githubusercontent.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654/raw/41228669921498332dcddc9597465daafc85127d/Telnet%2520from%2520Kubernetes%2520Cluster.md",
+          "Technologies": ["Kubectl", "Curl", "Telnet"]
+        }
+
+    ],
+    "Contact.Pretitle": "What's Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}
