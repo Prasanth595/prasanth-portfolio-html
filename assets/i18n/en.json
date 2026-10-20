@@ -1,178 +1,192 @@
 {
-
-    "Header.Item1" : "About me",
-    "Header.Item2" : "Experience",
-    "Header.Item3" : "Projects",
-    "Header.Item4" : "Contact",
-    "Header.cvBtn" : "Resume",
-    "Header.cvName": "Prasanth-Arumugam.pdf",
-
-    "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I am a DevOps / Cloud / Platform Engineer with six+ years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems. My expertise spans Kubernetes (GKE), CI/CD automation, application modernization, observability, and security. I specialize in transforming complex legacy environments into automated, reliable, and scalable platforms.",
-    "Banner.ActionBtn": "Get in touch",
-
-    "AboutMe.Title": "About me",
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Prasanth-Arumugam.pdf",
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I am a DevOps / Cloud / Platform Engineer with six+ years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems. My expertise spans Kubernetes (GKE), CI/CD automation, application modernization, observability, and security. I specialize in transforming complex legacy environments into automated, reliable, and scalable platforms.",
+  "Banner.ActionBtn": "Get in touch",
+  "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
     "I am a DevOps / Cloud / Platform Engineer with six+ years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems.",
     "My work spans cloud and Kubernetes, CI/CD automation, application modernization, observability, and security and governance.",
     "My core strength is turning complex, legacy environments into automated, observable, and reliable systems without disrupting business operations.",
     "I continuously focus on improving systems, automating workflows, and collaborating with cross-functional teams including developers, SREs, infrastructure, and security teams."
   ],
-
-
-    "Experience.Title": "Experience",
-    "Experience.MainTitle": "AMERICAN EAGLE (AEO) - Senior DevOps Engineer",
-    "Experience.MainDate": "May 2019 - Present",
-    "Experience.Jobs": [
-
-        {
+  "Experience.Title": "Experience",
+  "Experience.MainTitle": "AMERICAN EAGLE (AEO) - Senior DevOps Engineer",
+  "Experience.MainDate": "May 2019 - Present",
+  "Experience.Jobs": [
+    {
       "Tab": "Agile",
       "Title": "Collaboration & Agile Delivery",
       "Description": [
         "<b>Cross-Functional Leadership:</b> Acted as a technical 'translator' between Developers, SREs, and Security teams to align platform constraints with business requirements.",
-    "<b>Agile Ownership:</b> Led Epic-level initiatives, including the migration to ephemeral build agents and the containerization of legacy IBM Sterling systems.",
-    "<b>Scrum & Kanban:</b> Actively participated in sprint planning and retrospectives to identify technical risks, dependencies, and workflow improvements.",
-    "<b>Platform Advocacy:</b> Documented reference architectures and 'how-to' patterns to enable self-service DevOps and scale best practices across the engineering org.",
-    "<b>Incident Coordination:</b> Partnered with infrastructure and application teams during high-pressure incidents to ensure rapid recovery and clear communication."
-  ]
+        "<b>Agile Ownership:</b> Led Epic-level initiatives, including the migration to ephemeral build agents and the containerization of legacy IBM Sterling systems.",
+        "<b>Scrum & Kanban:</b> Actively participated in sprint planning and retrospectives to identify technical risks, dependencies, and workflow improvements.",
+        "<b>Platform Advocacy:</b> Documented reference architectures and 'how-to' patterns to enable self-service DevOps and scale best practices across the engineering org.",
+        "<b>Incident Coordination:</b> Partnered with infrastructure and application teams during high-pressure incidents to ensure rapid recovery and clear communication."
+      ]
     },
     {
       "Tab": "CI/CD",
       "Title": "CI/CD, Build Engineering & Release Automation",
       "Description": [
-       "<b>End‑to‑End Pipelines:</b> Designed Bamboo CI and ArgoCD GitOps pipelines for automated build, test (unit/integration/linting), and Helm chart packaging.",
-    "<b>GitOps Delivery:</b> Managed environment states (Dev/Test/Prod) via Git repositories with ArgoCD for automated sync, drift detection, and self‑healing.",
-    "<b>Ephemeral Agents:</b> Migrated from static build servers to ephemeral Kubernetes-based agents, using custom-built versioned images for isolated and scalable builds.",
-    "<b>Build Performance:</b> Implemented shared Persistent Volume Claims (PVC) mounted to agent pods to cache dependencies and Docker layers, significantly reducing build times.",
-    "<b>Automation & Scale:</b> Leveraged progressive rollouts and automated rollbacks tied to Git changes, delivering a repeatable and auditable release process."
-  ]
+        "<b>End‑to‑End Pipelines:</b> Designed Bamboo CI and ArgoCD GitOps pipelines for automated build, test (unit/integration/linting), and Helm chart packaging.",
+        "<b>GitOps Delivery:</b> Managed environment states (Dev/Test/Prod) via Git repositories with ArgoCD for automated sync, drift detection, and self‑healing.",
+        "<b>Ephemeral Agents:</b> Migrated from static build servers to ephemeral Kubernetes-based agents, using custom-built versioned images for isolated and scalable builds.",
+        "<b>Build Performance:</b> Implemented shared Persistent Volume Claims (PVC) mounted to agent pods to cache dependencies and Docker layers, significantly reducing build times.",
+        "<b>Automation & Scale:</b> Leveraged progressive rollouts and automated rollbacks tied to Git changes, delivering a repeatable and auditable release process."
+      ]
     },
-       {
+    {
       "Tab": "Cloud & K8s",
       "Title": "Cloud & Kubernetes Platform Engineering",
       "Description": [
         "<b>Kubernetes Architecture:</b> Translating requirements into GKE primitives: Deployments, StatefulSets, Jobs, Services, Ingress, and ConfigMaps.",
-    "<b>Containerization:</b> Building Docker images for microservices and monolithic IBM Sterling stacks using multi-stage builds and externalized configuration.",
-    "<b>External Integration:</b> Configuring secure connectivity to Oracle, IBM MQ, and Control-M using TLS, Keystores, and Kubernetes Secrets.",
-    "<b>Resilience:</b> Implementing Liveness/Readiness/Startup probes and Horizontal Pod Autoscaling (HPA) with tuned CPU/Memory requests.",
-    "<b>Impact:</b> Transitioned from static server deployments to declarative K8s automation, significantly improving recovery speed and application uptime."
-  ]
+        "<b>Containerization:</b> Building Docker images for microservices and monolithic IBM Sterling stacks using multi-stage builds and externalized configuration.",
+        "<b>External Integration:</b> Configuring secure connectivity to Oracle, IBM MQ, and Control-M using TLS, Keystores, and Kubernetes Secrets.",
+        "<b>Resilience:</b> Implementing Liveness/Readiness/Startup probes and Horizontal Pod Autoscaling (HPA) with tuned CPU/Memory requests.",
+        "<b>Impact:</b> Transitioned from static server deployments to declarative K8s automation, significantly improving recovery speed and application uptime."
+      ]
     },
     {
       "Tab": "Observability",
       "Title": "Observability, Performance & Reliability (SRE)",
       "Description": [
         "<b>Infrastructure Telemetry:</b> Instrumented Bamboo and GKE clusters to emit metrics on job queue lengths, build durations, and agent resource utilization.",
-    "<b>Custom Dashboards:</b> Developed real-time visualizations for build system health and capacity trends, reducing the mean time to detect (MTTD) infrastructure bottlenecks.",
-    "<b>Workload Monitoring:</b> Configured log shipping and Prometheus metrics scraping for microservices to track SLIs, including error rates, latency, and request counts.",
-    "<b>Incident Management:</b> Led root cause analysis (RCA) for production pod crashes and performance degradation, implementing 'golden signals' to reduce alert noise.",
-    "<b>Reliability Engineering:</b> Strengthened system resilience by updating deployment templates and 'golden' patterns based on post-incident findings."
-  ]
+        "<b>Custom Dashboards:</b> Developed real-time visualizations for build system health and capacity trends, reducing the mean time to detect (MTTD) infrastructure bottlenecks.",
+        "<b>Workload Monitoring:</b> Configured log shipping and Prometheus metrics scraping for microservices to track SLIs, including error rates, latency, and request counts.",
+        "<b>Incident Management:</b> Led root cause analysis (RCA) for production pod crashes and performance degradation, implementing 'golden signals' to reduce alert noise.",
+        "<b>Reliability Engineering:</b> Strengthened system resilience by updating deployment templates and 'golden' patterns based on post-incident findings."
+      ]
     },
     {
       "Tab": "Security",
       "Title": "Security, IAM & Governance",
       "Description": [
         "<b>Cloud IAM & Least Privilege:</b> Managed GKE Workload Identity and service accounts for CI/CD pipelines and AI/ML services using strict least-privilege policies.",
-    "<b>Governance & Access Control:</b> Administered repository permissions and branch protection rules in Bitbucket/GitHub to ensure auditable access and secure collaboration.",
-    "<b>Secrets Management:</b> Enforced secure handling of credentials using Secret Managers and Vault integrations, eliminating hardcoded secrets in repositories and pipelines.",
-    "<b>Vulnerability Remediation:</b> Conducted routine image hardening by patching OS packages and application libraries, ensuring zero functional regressions during rollouts.",
-    "<b>Compliance & Hardening:</b> Integrated security scanners into build processes to maintain enterprise compliance and protect containerized workloads from vulnerabilities."
-  ]
+        "<b>Governance & Access Control:</b> Administered repository permissions and branch protection rules in Bitbucket/GitHub to ensure auditable access and secure collaboration.",
+        "<b>Secrets Management:</b> Enforced secure handling of credentials using Secret Managers and Vault integrations, eliminating hardcoded secrets in repositories and pipelines.",
+        "<b>Vulnerability Remediation:</b> Conducted routine image hardening by patching OS packages and application libraries, ensuring zero functional regressions during rollouts.",
+        "<b>Compliance & Hardening:</b> Integrated security scanners into build processes to maintain enterprise compliance and protect containerized workloads from vulnerabilities."
+      ]
     }
-    
-
-
-    ],
-
-
-    "FeatureProjects.Title": "My projects",
-    "FeatureProjects.Label": "Featured Project",
-    "FeatureProjects.Projects": [
-                {
-            "Title": "Hands game",
-            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
-            "imgs": ["assets/images/hands-game.png"],
-            "ghLink": "https://github.com/Prasanth595/hands-game",
-            "demoLink": "https://prasanth-hands-game.pages.dev/",
-            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
-        },
-        {
-            "Title": "Countries viewer",
-            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/Prasanth595/countries-viewer",
-            "demoLink": "https://prasanth-countries-viewer.pages.dev/",
-            "Technologies": ["Angular", "RxJS", "SASS", "API"]
-        }
-    ],
-
-
-
-    "OtherProjects.Title": "More projects",
-    "OtherProjects.Projects": [
-        {
-            "Title": "Hands game",
-            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
-            "imgs": ["assets/images/hands-game.png"],
-            "ghLink": "https://github.com/Prasanth595/hands-game",
-            "demoLink": "https://prasanth-hands-game.pages.dev/",
-            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
-        },
-        {
-            "Title": "Countries viewer",
-            "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "ghLink": "https://github.com/Prasanth595/countries-viewer",
-            "demoLink": "https://prasanth-countries-viewer.pages.dev/",
-            "Technologies": ["Angular", "RxJS", "SASS", "API"]
-        },
-        {
-            "Title": "Apple Music Embeddable Web Player Widget",
-            "Description": "Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging MusicKit.js. Read more about this project on 9to5Mac.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "demoLink": "https://tools.applemediaservices.com/apple-music",
-            "ghLink": "https://tools.applemediaservices.com/apple-music",
-            "Technologies": ["MusicKit.js", "JS", "SCSS"]
-        },
-        {
-            "Title": "OctoProfile",
-            "Description": "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "demoLink": "https://octoprofile.vercel.app/",
-            "ghLink": "https://github.com/Prasanth595/octoprofile",
-            "Technologies": ["Next.js", "JChart.js", "GitHub Api"]
-        },
-        {
-            "Title": "Google Keep Clone",
-            "Description": "A simple Google Keep clone built with Vue and Firebase.",
-            "imgs": ["assets/images/countries-viewer.png"],
-            "demoLink": "https://keep-vue.netlify.app/",
-            "ghLink": "https://github.com/Prasanth595/google-keep-vue-firebase",
-            "Technologies": ["Next.js", "JChart.js", "GitHub Api"]
-        },
-        {
-          "Title": "Telnet from Kubernetes Cluster",
-          "Description": "Telnet operation from a GKE (Google Kubernetes Engine) cluster.",
-          "imgs": ["assets/images/countries-viewer.png"],
-          "demoLink": "https://gist.github.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654#file-telnet-from-kubernetes-cluster-md",
-          "ghLink": "https://gist.githubusercontent.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654/raw/41228669921498332dcddc9597465daafc85127d/Telnet%2520from%2520Kubernetes%2520Cluster.md",
-          "Technologies": ["Kubectl", "Curl", "Telnet"]
-        },
-        {
-          "Title": "Telnet from Kubernetes Cluster",
-          "Description": "Telnet operation from a GKE (Google Kubernetes Engine) cluster.",
-          "imgs": ["assets/images/countries-viewer.png"],
-          "demoLink": "https://gist.github.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654#file-telnet-from-kubernetes-cluster-md",
-          "ghLink": "https://gist.githubusercontent.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654/raw/41228669921498332dcddc9597465daafc85127d/Telnet%2520from%2520Kubernetes%2520Cluster.md",
-          "Technologies": ["Kubectl", "Curl", "Telnet"]
-        }
-
-    ],
-    "Contact.Pretitle": "What's Next",
-    "Contact.Title": "Get in touch!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
-    "Contact.Btn": "Say Hello"
-
-
+  ],
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Daily Trending Repo Mirror Catalog",
+      "Description": "A public, always-current catalog mirroring 10-20 trending DevOps and AI repositories every day -- each imported as a full code copy, credited to its upstream source, with a one-line note on what it is used for. An automated workflow keeps every mirror synced with upstream daily. My way of staying hands-on with what is actually moving in the ecosystem.",
+      "imgs": [
+        "assets/images/proj-trending-forks.png"
+      ],
+      "ghLink": "https://github.com/Prasanth595/trending-forks",
+      "demoLink": "https://github.com/Prasanth595/trending-forks",
+      "Technologies": [
+        "GitHub Actions",
+        "Git",
+        "CI/CD",
+        "Open Source"
+      ]
+    },
+    {
+      "Title": "Enterprise GitOps Migration at Scale",
+      "Description": "Led the migration of 150+ microservices from hand-written Kubernetes manifests to standardized Helm charts with ArgoCD-driven GitOps deployments. A git push now triggers automated, audited rollouts with quality gates -- replacing hours of error-prone manual kubectl deploys per release and eliminating a whole class of deployment incidents.",
+      "imgs": [
+        "assets/images/proj-gitops-migration.png"
+      ],
+      "Technologies": [
+        "Kubernetes",
+        "Helm",
+        "ArgoCD",
+        "GitOps",
+        "Terraform"
+      ]
+    },
+    {
+      "Title": "Observability & SRE Practice",
+      "Description": "Designed the observability stack -- Grafana, Prometheus and Loki with Filebeat and ELK -- used for monitoring, alerting, troubleshooting and autoscaling of production services. Golden signals, actionable alert routing and runbooks, so any on-call engineer can respond to an incident without paging the one expert.",
+      "imgs": [
+        "assets/images/proj-observability.png"
+      ],
+      "Technologies": [
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "SLI/SLO",
+        "SRE"
+      ]
+    }
+  ],
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "trending-forks",
+      "Description": "Public catalog mirroring 10-20 trending DevOps and AI repos daily, auto-synced from upstream each morning, each entry credited and annotated with what it is used for.",
+      "imgs": [],
+      "ghLink": "https://github.com/Prasanth595/trending-forks",
+      "demoLink": "https://github.com/Prasanth595/trending-forks",
+      "Technologies": [
+        "GitHub Actions",
+        "Git",
+        "Open Source"
+      ]
+    },
+    {
+      "Title": "90 Topics Related to DevOps Challenges",
+      "Description": "Ninety hands-on DevOps challenge topics -- practice exercises spanning Linux, containers, Kubernetes, CI/CD and cloud infrastructure.",
+      "imgs": [],
+      "ghLink": "https://github.com/Prasanth595/90-topics-related-to-DevOps-challenges",
+      "demoLink": "https://github.com/Prasanth595/90-topics-related-to-DevOps-challenges",
+      "Technologies": [
+        "Kubernetes",
+        "Docker",
+        "CI/CD",
+        "Linux"
+      ]
+    },
+    {
+      "Title": "postgresql-helm",
+      "Description": "Helm chart for deploying PostgreSQL on Kubernetes -- standardized, repeatable database installs the GitOps way.",
+      "imgs": [],
+      "ghLink": "https://github.com/Prasanth595/postgresql-helm",
+      "demoLink": "https://github.com/Prasanth595/postgresql-helm",
+      "Technologies": [
+        "Helm",
+        "Kubernetes",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "Title": "agent-skills",
+      "Description": "Production-grade engineering skills for AI coding agents -- reusable, tested workflows that take agent output from demo to dependable.",
+      "imgs": [],
+      "ghLink": "https://github.com/Prasanth595/agent-skills",
+      "demoLink": "https://github.com/Prasanth595/agent-skills",
+      "Technologies": [
+        "AI Agents",
+        "Automation",
+        "Engineering"
+      ]
+    },
+    {
+      "Title": "dayflow",
+      "Description": "Dayflow daily tasks and shopping lists -- a small productivity app for planning the day and tracking lists.",
+      "imgs": [],
+      "ghLink": "https://github.com/Prasanth595/dayflow",
+      "demoLink": "https://github.com/Prasanth595/dayflow",
+      "Technologies": [
+        "JavaScript",
+        "Productivity"
+      ]
+    }
+  ],
+  "Contact.Pretitle": "What's Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+  "Contact.Btn": "Say Hello"
 }
