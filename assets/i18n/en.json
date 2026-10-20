@@ -6,7 +6,7 @@
   "Header.cvBtn": "Resume",
   "Header.cvName": "Prasanth-Arumugam.pdf",
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I am a DevOps / Cloud / Platform Engineer with seven years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems. My expertise spans Kubernetes (GKE), CI/CD automation, application modernization, observability, and security. I specialize in transforming complex legacy environments into automated, reliable, and scalable platforms.",
+  "Banner.Description": "Senior DevOps Engineer with seven years of experience designing, building, and operating cloud-native platforms. Led the GitOps transformation of a 150+ microservice estate on GKE - from hand-written manifests to standardized Helm charts to ArgoCD-driven deployments. Deep expertise across CI/CD (Azure DevOps, Jenkins, GitLab CI, GitHub Actions, Bamboo), Terraform and Ansible automation, and production operations across GCP, AWS and Azure.",
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
@@ -14,54 +14,62 @@
     "My work spans cloud and Kubernetes, CI/CD automation, application modernization, observability, and security and governance. Tools I use day-to-day include Kubernetes (GKE/EKS), Docker, Helm, ArgoCD, Terraform, Ansible, Bamboo, Jenkins, Azure DevOps, GitLab CI, GitHub Actions, Grafana and Prometheus across GCP, AWS and Azure.",
     "My core strength is turning complex, legacy environments into automated, observable, and reliable systems without disrupting business operations.",
     "I continuously focus on improving systems, automating workflows, and collaborating with cross-functional teams including developers, SREs, infrastructure, and security teams.",
-    "I am currently a Senior DevOps Engineer based in Cranberry Township, PA, and I am open to remote US DevOps, platform and SRE roles."
+    "I am currently a Senior DevOps Engineer based in Cranberry Township, PA, and I am open to remote US DevOps, platform and SRE roles.",
+    "Certification: Google Cloud Certified - Associate Cloud Engineer. Award: Contractor of Achievement - American Eagle Outfitters."
   ],
   "Experience.Title": "Experience",
   "Experience.MainTitle": "SCRUNCH WORKS - Senior DevOps Engineer (Client: American Eagle Outfitters)",
   "Experience.MainDate": "May 2019 - Present",
   "Experience.Jobs": [
     {
-      "Tab": "Agile",
-      "Title": "Collaboration & Agile Delivery",
-      "Description": [
-        "<b>Cross-Functional Leadership:</b> Acted as a technical 'translator' between Developers, SREs, and Security teams to align platform constraints with business requirements.",
-        "<b>Agile Ownership:</b> Led Epic-level initiatives, including the migration to ephemeral build agents and the containerization of legacy IBM Sterling systems.",
-        "<b>Scrum & Kanban:</b> Actively participated in sprint planning and retrospectives to identify technical risks, dependencies, and workflow improvements.",
-        "<b>Platform Advocacy:</b> Documented reference architectures and 'how-to' patterns to enable self-service DevOps and scale best practices across the engineering org.",
-        "<b>Incident Coordination:</b> Partnered with infrastructure and application teams during high-pressure incidents to ensure rapid recovery and clear communication."
-      ]
-    },
-    {
       "Tab": "CI/CD",
-      "Title": "CI/CD, Build Engineering & Release Automation",
+      "Title": "CI/CD, Build Engineering & GitOps Delivery",
       "Description": [
-        "<b>End‑to‑End Pipelines:</b> Designed Bamboo CI and ArgoCD GitOps pipelines for automated build, test (unit/integration/linting), and Helm chart packaging.",
-        "<b>GitOps Delivery:</b> Managed environment states (Dev/Test/Prod) via Git repositories with ArgoCD for automated sync, drift detection, and self‑healing.",
-        "<b>Ephemeral Agents:</b> Migrated from static build servers to ephemeral Kubernetes-based agents, using custom-built versioned images for isolated and scalable builds.",
-        "<b>Build Performance:</b> Implemented shared Persistent Volume Claims (PVC) mounted to agent pods to cache dependencies and Docker layers, significantly reducing build times.",
-        "<b>Automation & Scale:</b> Leveraged progressive rollouts and automated rollbacks tied to Git changes, delivering a repeatable and auditable release process."
+        "<b>GitOps Transformation:</b> Led the migration of 150+ microservices from hand-written Kubernetes manifests to standardized Helm charts and ArgoCD-driven GitOps deployments.",
+        "<b>End-to-End Pipelines:</b> Designed Bamboo CI and ArgoCD pipelines for automated build, test (unit/integration/linting) and Helm chart packaging; GitLab CI and Jenkins pipelines automating the full build and deployment lifecycle.",
+        "<b>Azure DevOps:</b> Designed and implemented end-to-end CI/CD pipelines on Azure DevOps, fully automating build, test and deployment.",
+        "<b>GitOps Delivery:</b> Managed environment states (Dev/Test/Prod) via Git repositories with ArgoCD for automated sync, drift detection and self-healing.",
+        "<b>Ephemeral Agents:</b> Migrated from static build servers to ephemeral Kubernetes-based agents with custom-built versioned images for isolated, scalable builds.",
+        "<b>Build Performance:</b> Mounted shared Persistent Volume Claims (PVC) to agent pods to cache dependencies and Docker layers, significantly reducing build times.",
+        "<b>Quality Gates:</b> Hardened delivery quality by embedding SonarQube static analysis and JUnit test verification gates into pipelines, shifting quality left."
       ]
     },
     {
       "Tab": "Cloud & K8s",
       "Title": "Cloud & Kubernetes Platform Engineering",
       "Description": [
-        "<b>Kubernetes Architecture:</b> Translating requirements into GKE primitives: Deployments, StatefulSets, Jobs, Services, Ingress, and ConfigMaps.",
+        "<b>Kubernetes Architecture:</b> Translating requirements into GKE primitives: Deployments, StatefulSets, Jobs, Services, Ingress and ConfigMaps.",
         "<b>Containerization:</b> Building Docker images for microservices and monolithic IBM Sterling stacks using multi-stage builds and externalized configuration.",
-        "<b>External Integration:</b> Configuring secure connectivity to Oracle, IBM MQ, and Control-M using TLS, Keystores, and Kubernetes Secrets.",
-        "<b>Resilience:</b> Implementing Liveness/Readiness/Startup probes and Horizontal Pod Autoscaling (HPA) with tuned CPU/Memory requests.",
-        "<b>Impact:</b> Transitioned from static server deployments to declarative K8s automation, significantly improving recovery speed and application uptime."
+        "<b>Helm Deployments:</b> Deployed and operated containerized workloads on Google Kubernetes Engine using Helm charts with YAML-driven automation.",
+        "<b>External Integration:</b> Configuring secure connectivity to Oracle, IBM MQ and Control-M using TLS, keystores and Kubernetes Secrets.",
+        "<b>Resilience:</b> Implementing liveness/readiness/startup probes and Horizontal Pod Autoscaling (HPA) with tuned CPU/memory requests.",
+        "<b>AWS:</b> Deployed and managed EC2 instances for application hosting and environment setup across AWS environments.",
+        "<b>Impact:</b> Transitioned from static server deployments to declarative Kubernetes automation, significantly improving recovery speed and application uptime."
+      ]
+    },
+    {
+      "Tab": "IaC",
+      "Title": "Infrastructure as Code & Automation",
+      "Description": [
+        "<b>Provisioning as Code:</b> Architected infrastructure automation with Terraform and Ansible, codifying provisioning, patching and configuration management across GKE and on-premise estates.",
+        "<b>Deployment Automation:</b> Built Bamboo + Ansible pipelines for on-premise targets, containerizing workloads with Docker and Kubernetes.",
+        "<b>Version Control Migration:</b> Migrated version control from TFS to Bitbucket, automating the transition with PowerShell.",
+        "<b>Custom Tooling:</b> Built custom versioned build images and shared automation patterns reused across teams and environments.",
+        "<b>Configuration Management:</b> Externalized configuration from container images so the same artifact runs safely in every environment.",
+        "<b>Patching at Scale:</b> Codified patching and configuration drift remediation across distributed estates instead of manual, box-by-box work."
       ]
     },
     {
       "Tab": "Observability",
       "Title": "Observability, Performance & Reliability (SRE)",
       "Description": [
-        "<b>Infrastructure Telemetry:</b> Instrumented Bamboo and GKE clusters to emit metrics on job queue lengths, build durations, and agent resource utilization.",
-        "<b>Custom Dashboards:</b> Developed real-time visualizations for build system health and capacity trends, reducing the mean time to detect (MTTD) infrastructure bottlenecks.",
-        "<b>Workload Monitoring:</b> Configured log shipping and Prometheus metrics scraping for microservices to track SLIs, including error rates, latency, and request counts.",
-        "<b>Incident Management:</b> Led root cause analysis (RCA) for production pod crashes and performance degradation, implementing 'golden signals' to reduce alert noise.",
-        "<b>Reliability Engineering:</b> Strengthened system resilience by updating deployment templates and 'golden' patterns based on post-incident findings."
+        "<b>Observability Stack:</b> Designed the observability stack - Grafana with Prometheus and Loki, Filebeat and the ELK stack - for monitoring, alerting, troubleshooting and autoscaling production services.",
+        "<b>Infrastructure Telemetry:</b> Instrumented Bamboo and GKE clusters to emit metrics on job queue lengths, build durations and agent resource utilization.",
+        "<b>Custom Dashboards:</b> Developed real-time visualizations for build system health and capacity trends, reducing mean time to detect (MTTD) infrastructure bottlenecks.",
+        "<b>Workload Monitoring:</b> Configured log shipping and Prometheus metrics scraping for microservices to track SLIs, including error rates, latency and request counts.",
+        "<b>Incident Management:</b> Led root cause analysis (RCA) for production pod crashes and performance degradation, implementing golden signals to reduce alert noise.",
+        "<b>On-Call Enablement:</b> Created alert routing and runbooks so any on-call engineer can respond to an incident without paging the one expert.",
+        "<b>Continuous Monitoring:</b> Owned production monitoring and maintenance around release and hotfix deployments, closing the loop between shipping and operating."
       ]
     },
     {
@@ -70,9 +78,24 @@
       "Description": [
         "<b>Cloud IAM & Least Privilege:</b> Managed GKE Workload Identity and service accounts for CI/CD pipelines and AI/ML services using strict least-privilege policies.",
         "<b>Governance & Access Control:</b> Administered repository permissions and branch protection rules in Bitbucket/GitHub to ensure auditable access and secure collaboration.",
-        "<b>Secrets Management:</b> Enforced secure handling of credentials using Secret Managers and Vault integrations, eliminating hardcoded secrets in repositories and pipelines.",
+        "<b>Repository Governance:</b> Governed GitHub repositories and branching workflows, enabling seamless collaboration and version control.",
+        "<b>Secrets Management:</b> Enforced secure handling of credentials using secret managers and Vault integrations, eliminating hardcoded secrets in repositories and pipelines.",
         "<b>Vulnerability Remediation:</b> Conducted routine image hardening by patching OS packages and application libraries, ensuring zero functional regressions during rollouts.",
-        "<b>Compliance & Hardening:</b> Integrated security scanners into build processes to maintain enterprise compliance and protect containerized workloads from vulnerabilities."
+        "<b>Compliance & Hardening:</b> Integrated security scanners into build processes to maintain enterprise compliance and protect containerized workloads.",
+        "<b>Secure by Default:</b> Baked security gates into templates and golden patterns so secure choices are the path of least resistance."
+      ]
+    },
+    {
+      "Tab": "Agile",
+      "Title": "Collaboration, Agile Delivery & Release Ownership",
+      "Description": [
+        "<b>Cross-Functional Leadership:</b> Acted as a technical 'translator' between developers, SREs and security teams to align platform constraints with business requirements.",
+        "<b>Release Ownership:</b> Established the release management process with engineering teams and owned release and hotfix deployments via ArgoCD end to end.",
+        "<b>Agile Ownership:</b> Led epic-level initiatives, including the migration to ephemeral build agents and the containerization of legacy IBM Sterling systems.",
+        "<b>Scrum & Kanban:</b> Actively participated in sprint planning and retrospectives to identify technical risks, dependencies and workflow improvements.",
+        "<b>Platform Advocacy:</b> Documented reference architectures and how-to patterns to enable self-service DevOps and scale best practices across the engineering org.",
+        "<b>Incident Coordination:</b> Partnered with infrastructure and application teams during high-pressure incidents to ensure rapid recovery and clear communication.",
+        "<b>Continuous Improvement:</b> Drove improvement through Agile ceremonies, evaluating and adopting new technologies to raise reliability, scalability and developer velocity."
       ]
     }
   ],
@@ -188,6 +211,6 @@
   ],
   "Contact.Pretitle": "What's Next",
   "Contact.Title": "Get in touch!",
-  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. I am based in Cranberry Township, PA and open to remote US DevOps opportunities.",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. I am based in Cranberry Township, PA and open to remote US DevOps opportunities. Fastest way to reach me is prasanth956607@gmail.com or +1 412-519-4804.",
   "Contact.Btn": "Say Hello"
 }
