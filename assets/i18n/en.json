@@ -6,17 +6,18 @@
   "Header.cvBtn": "Resume",
   "Header.cvName": "Prasanth-Arumugam.pdf",
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I am a DevOps / Cloud / Platform Engineer with six+ years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems. My expertise spans Kubernetes (GKE), CI/CD automation, application modernization, observability, and security. I specialize in transforming complex legacy environments into automated, reliable, and scalable platforms.",
+  "Banner.Description": "I am a DevOps / Cloud / Platform Engineer with seven years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems. My expertise spans Kubernetes (GKE), CI/CD automation, application modernization, observability, and security. I specialize in transforming complex legacy environments into automated, reliable, and scalable platforms.",
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "I am a DevOps / Cloud / Platform Engineer with six+ years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems.",
-    "My work spans cloud and Kubernetes, CI/CD automation, application modernization, observability, and security and governance.",
+    "I am a DevOps / Cloud / Platform Engineer with seven years of experience designing, building, and operating infrastructure and deployment pipelines for large-scale enterprise systems.",
+    "My work spans cloud and Kubernetes, CI/CD automation, application modernization, observability, and security and governance. Tools I use day-to-day include Kubernetes (GKE/EKS), Docker, Helm, ArgoCD, Terraform, Ansible, Bamboo, Jenkins, Azure DevOps, GitLab CI, GitHub Actions, Grafana and Prometheus across GCP, AWS and Azure.",
     "My core strength is turning complex, legacy environments into automated, observable, and reliable systems without disrupting business operations.",
-    "I continuously focus on improving systems, automating workflows, and collaborating with cross-functional teams including developers, SREs, infrastructure, and security teams."
+    "I continuously focus on improving systems, automating workflows, and collaborating with cross-functional teams including developers, SREs, infrastructure, and security teams.",
+    "I am currently a Senior DevOps Engineer based in Cranberry Township, PA, and I am open to remote US DevOps, platform and SRE roles."
   ],
   "Experience.Title": "Experience",
-  "Experience.MainTitle": "AMERICAN EAGLE (AEO) - Senior DevOps Engineer",
+  "Experience.MainTitle": "SCRUNCH WORKS - Senior DevOps Engineer (Client: American Eagle Outfitters)",
   "Experience.MainDate": "May 2019 - Present",
   "Experience.Jobs": [
     {
@@ -187,6 +188,6 @@
   ],
   "Contact.Pretitle": "What's Next",
   "Contact.Title": "Get in touch!",
-  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. I am based in Cranberry Township, PA and open to remote US DevOps opportunities.",
   "Contact.Btn": "Say Hello"
 }
