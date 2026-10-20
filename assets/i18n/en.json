@@ -19,7 +19,7 @@
     "Certification: Google Cloud Certified - Associate Cloud Engineer. Award: Contractor of Achievement - American Eagle Outfitters. Education: Bachelor of Computer Applications (BCA), Vels University, 2016 - 2019."
   ],
   "Experience.Title": "Experience",
-  "Experience.MainTitle": "SCRUNCH WORKS - Senior DevOps Engineer (Client: American Eagle Outfitters)",
+  "Experience.MainTitle": "SCRUNCH WORKS - Senior DevOps Engineer (Primary Client: American Eagle Outfitters)",
   "Experience.MainDate": "May 2019 - Present",
   "Experience.Jobs": [
     {
@@ -32,7 +32,8 @@
         "<b>GitOps Delivery:</b> Managed environment states (Dev/Test/Prod) via Git repositories with ArgoCD for automated sync, drift detection and self-healing.",
         "<b>Ephemeral Agents:</b> Migrated from static build servers to ephemeral Kubernetes-based agents with custom-built versioned images for isolated, scalable builds.",
         "<b>Build Performance:</b> Mounted shared Persistent Volume Claims (PVC) to agent pods to cache dependencies and Docker layers, significantly reducing build times.",
-        "<b>Quality Gates:</b> Hardened delivery quality by embedding SonarQube static analysis and JUnit test verification gates into pipelines, shifting quality left."
+        "<b>Quality Gates:</b> Hardened delivery quality by embedding SonarQube static analysis and JUnit test verification gates into pipelines, shifting quality left.",
+        "**Bamboo Modernization:** Modernized Bamboo build infrastructure with Kubernetes-based ephemeral agents and optimized build environments."
       ]
     },
     {
@@ -45,7 +46,10 @@
         "<b>External Integration:</b> Configuring secure connectivity to Oracle, IBM MQ and Control-M using TLS, keystores and Kubernetes Secrets.",
         "<b>Resilience:</b> Implementing liveness/readiness/startup probes and Horizontal Pod Autoscaling (HPA) with tuned CPU/memory requests.",
         "<b>AWS:</b> Deployed and managed EC2 instances for application hosting and environment setup across AWS environments.",
-        "<b>Impact:</b> Transitioned from static server deployments to declarative Kubernetes automation, significantly improving recovery speed and application uptime."
+        "<b>Impact:</b> Transitioned from static server deployments to declarative Kubernetes automation, significantly improving recovery speed and application uptime.",
+        "**Cloud-Native Delivery:** Enabled cloud-native application delivery on GKE, supporting production integrations and connectivity between on-premises and cloud environments.",
+        "**Sterling OMS Containerization:** Built automated Sterling OMS containerization workflows, including image builds, operator-based deployments, rollback, and scaling on GKE.",
+        "**Runtime Image Modernization:** Modernized application runtime images, delivering .NET base-image upgrades for application teams."
       ]
     },
     {
@@ -57,7 +61,10 @@
         "<b>Version Control Migration:</b> Migrated version control from TFS to Bitbucket, automating the transition with PowerShell.",
         "<b>Custom Tooling:</b> Built custom versioned build images and shared automation patterns reused across teams and environments.",
         "<b>Configuration Management:</b> Externalized configuration from container images so the same artifact runs safely in every environment.",
-        "<b>Patching at Scale:</b> Codified patching and configuration drift remediation across distributed estates instead of manual, box-by-box work."
+        "<b>Patching at Scale:</b> Codified patching and configuration drift remediation across distributed estates instead of manual, box-by-box work.",
+        "**Bitbucket Cloud Migration:** Delivered phased Bitbucket Data Center-to-Cloud migrations, updating dependent Bamboo and Argo CD integrations.",
+        "**Troubleshooting Automation:** Automated operational troubleshooting using Ansible/AWX, including thread-dump collection and artifact uploads.",
+        "**Legacy Platform Retirement:** Supported safe legacy-platform retirement through repository backups, database exports, and Bitbucket Data Center shutdown activities."
       ]
     },
     {
@@ -70,7 +77,8 @@
         "<b>Workload Monitoring:</b> Configured log shipping and Prometheus metrics scraping for microservices to track SLIs, including error rates, latency and request counts.",
         "<b>Incident Management:</b> Led root cause analysis (RCA) for production pod crashes and performance degradation, implementing golden signals to reduce alert noise.",
         "<b>On-Call Enablement:</b> Created alert routing and runbooks so any on-call engineer can respond to an incident without paging the one expert.",
-        "<b>Continuous Monitoring:</b> Owned production monitoring and maintenance around release and hotfix deployments, closing the loop between shipping and operating."
+        "<b>Continuous Monitoring:</b> Owned production monitoring and maintenance around release and hotfix deployments, closing the loop between shipping and operating.",
+        "**Centralized Logging:** Improved centralized logging and observability through GCP Ops Agent configuration and automation."
       ]
     },
     {
@@ -97,6 +105,36 @@
         "<b>Platform Advocacy:</b> Documented reference architectures and how-to patterns to enable self-service DevOps and scale best practices across the engineering org.",
         "<b>Incident Coordination:</b> Partnered with infrastructure and application teams during high-pressure incidents to ensure rapid recovery and clear communication.",
         "<b>Continuous Improvement:</b> Drove improvement through Agile ceremonies, evaluating and adopting new technologies to raise reliability, scalability and developer velocity."
+      ]
+    },
+    {
+      "Tab": "Researgence",
+      "Title": "Researgence CI-INT - Internal Platform (Mar 2023 - Jan 2024)",
+      "Description": [
+        "**Azure DevOps Pipelines:** Designed and implemented end-to-end CI/CD pipelines on Azure DevOps, fully automating build, test, and deployment.",
+        "**AWS Hosting:** Deployed and managed EC2 instances on AWS for application hosting and environment setup.",
+        "**Containerization:** Containerized applications with Docker and Kubernetes and automated YAML-driven deployments.",
+        "**Production Operations:** Owned production monitoring, maintenance, and release/hotfix deployments.",
+        "**Quality Gates:** Embedded JUnit test cases and SonarQube quality gates into the pipeline, shifting quality left."
+      ]
+    },
+    {
+      "Tab": "Kirya Docs",
+      "Title": "Kirya Docs - Client Project (Jun 2024 - Sep 2024)",
+      "Description": [
+        "**GitLab CI:** Designed and implemented GitLab CI pipelines automating the full build and deployment process.",
+        "**GKE Workloads:** Deployed and operated containerized workloads on Google Kubernetes Engine using Helm charts.",
+        "**Release Ownership:** Owned release and hotfix deployments with continuous service monitoring."
+      ]
+    },
+    {
+      "Tab": "Pothigai",
+      "Title": "Pothigai - Client Project (Dec 2019 - Sep 2024)",
+      "Description": [
+        "**Jenkins Pipelines:** Architected Jenkins-based CI/CD pipelines automating build and deployment processes.",
+        "**Repository Governance:** Governed GitHub repositories and branching workflows, enabling seamless collaboration and version control.",
+        "**Release Management:** Owned release management end to end, including hotfix deployments and continuous monitoring of services.",
+        "**Version Control Migration:** Migrated version control from TFS to Bitbucket, automating the transition with PowerShell."
       ]
     }
   ],
